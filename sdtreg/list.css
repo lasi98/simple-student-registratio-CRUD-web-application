@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#Title {
+  float: left;
+  font-size: 28px;
+  margin-top: 1%;
+  margin-left: 1%;
+  font-weight: bold;
+}
+
+#addEmp {
+  float: right;
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
+.add-row {
+  display: inline-flex;
+  height: 50px;
+  padding: 15;
+  background: #009578;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  width: 150px;
+}
+
+.searchBtn {
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  justify-content: center;
+  display: flex;
+  transition: 0.4s;
+}
+
+#searchBox:hover > #searchBox {
+  width: 240px;
+  padding: 0 6px;
+}
+
+#searchBox:hover > #searchBtn {
+  background: wheat;
+}
+
+#thirdDiv {
+  position: relative;
+  top: 100px;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #cdcdcd;
+}
+
+table th,
+table td {
+  padding: 5px;
+  text-align: left;
+}
+
+#lkr {
+  width: 82px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+
+  border: 0;
+
+  color: rgb(6, 6, 6);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+#lkr:hover {
+  background-color: #f0bcbc;
+}
+#upd {
+  background-color: #009578;
+}
+#delt {
+  background-color: #e84118;
+}

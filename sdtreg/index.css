@@ -1,0 +1,40 @@
+form {
+  width: 670px;
+  position: relative;
+  top: 100px;
+  left: 450px;
+  background-color: rgba(53, 235, 235, 0.169);
+}
+select {
+  width: 177px;
+  height: 20px;
+  text-align: center;
+}
+#btn {
+  float: left;
+}
+#date {
+  width: 173px;
+  text-align: center;
+}
+#address {
+  width: 173px;
+}
+#reset {
+  float: right;
+}
+#Ownername {
+  width: 173px;
+}
+#veiw {
+  position: absolute;
+  top: 550px;
+  left: 458px;
+  width: 670px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+#pw {
+  width: 350px;
+}
